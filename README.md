@@ -1,3 +1,3 @@
 # Keras
-Projects of Deep Learning created on Keras using TensorFlow as backend \n
+Projects of Deep Learning created on Keras using TensorFlow as backend <br />
 [Mnist](https://github.com/Somil112/Keras/blob/master/mnistann.py)-MNIST using Keras with 98.57% accuracy
