@@ -50,8 +50,10 @@ y_pred=(y_pred>0.5)
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(Y_test, y_pred)
 
-from keras.wrappers.scikit_learn import KerasClassifier
-from sklearn.model_selection import GridSearchCV
+
+#Using Grid Search CV to evalauate the best parameters
+# from keras.wrappers.scikit_learn import KerasClassifier
+# from sklearn.model_selection import GridSearchCV
 
 #def build_classifier(optimizer,activation):
 #    classifier = Sequential()
